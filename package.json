@@ -1,0 +1,29 @@
+{
+  "name": "@totaling/internal",
+  "version": "0.1.0",
+  "description": "Внутренние вызовы между сервисами Totaling: клиент с токеном сервиса от auth и проверка такого токена на стороне владельца эндпоинта (ADR-0002/0003, ADR-0009 этап 0).",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "src",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Totaling/totaling-internal.git"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "peerDependencies": {
+    "jsonwebtoken": ">=8.5.1"
+  },
+  "devDependencies": {
+    "jsonwebtoken": "^9.0.2"
+  },
+  "license": "UNLICENSED",
+  "private": true
+}
